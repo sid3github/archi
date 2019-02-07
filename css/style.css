@@ -25,7 +25,6 @@ span {
 
 .d-block{
     border:  solid 1px black;
-    background-size: cover;
 }
 
 .head{
@@ -34,4 +33,17 @@ span {
 
 .txt{
     font-size: 2rem;
+}
+
+
+@media screen and (min-width: 480px){
+    .d-block{
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1120px){
+    .d-block{
+        height: 650px;
+    }
 }
